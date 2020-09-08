@@ -30,8 +30,8 @@ async function run() {
 
     //turn crownstone on and off
     await testCrownStone.turnOn();
-    sleep(2000);
+    sleep(5000);
     await testCrownStone.turnOff();
 }
-run().catch((e) => { console.log("There was a problem running this example:", e); });
+run().catch((e) => { console.log("There was a problem running the code:", e); });
 
