@@ -1,0 +1,11 @@
+<button onclick="sendRequest()">Click me</button>
+
+<script>
+function sendRequest() { 
+	$.ajax( 
+      { 
+        url: "http://localhost:3000/api", 
+        type: "GET" 
+      }); 
+}
+</script>

@@ -1,10 +1,10 @@
 //cloud instance - require
-let cloudLib = require("crownstone-cloud")
-let cloud = new cloudLib.CrownstoneCloud();
+// let cloudLib = require("crownstone-cloud")
+// let cloud = new cloudLib.CrownstoneCloud();
 
 //cloud instance - import
-// import {CrownstoneCloud} from 'crownstone-cloud';
-// const cloud = new CrownstoneCloud();
+import {CrownstoneCloud} from 'crownstone-cloud';
+const cloud = new CrownstoneCloud();
 
 //credentials:
 const crownstoneEmailAddress = "username";
