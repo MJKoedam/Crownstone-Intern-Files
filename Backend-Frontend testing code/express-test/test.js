@@ -3,26 +3,27 @@ const bodyParser = require('body-parser');
 const app = express();
 let cloudLib = require("crownstone-cloud")
 let cloud = new cloudLib.CrownstoneCloud();
+const port = 3000;
+let sendUserData;
 
 app.use(bodyParser.urlencoded({ extended: true }));
-
-const port = 3000;
-
 app.listen(port, () => {
     console.log(`Server running on port${port}`);
 });
 
-    let sendUserData;
-app.post('/test', (req, res) => {
+app.post('/', (req, res) => {
     async function login() {
         console.log("Logging in...");
         await cloud.login(req.body.name, req.body.password)
         let myUserData = await cloud.me();
-        let userId       = await myUserData.id();
+        let userId = await myUserData.id();
         console.log(myUserData);
+        console.log(userId);
         sendUserData = userId;
+        res.send('Login successfull');
     }
-    login().catch((e) => { console.log("There was a problem running this example:", e); });
     console.log(sendUserData);
-    res.send('UserId: ' + sendUserData);
+    login().catch((e) => { console.log("There was a problem running this example:", e);
+        res.send('Login unsuccesfull!');
+    });
 })
