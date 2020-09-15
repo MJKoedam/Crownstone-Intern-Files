@@ -1,11 +1,10 @@
-<button onclick="sendRequest()">Click me</button>
-
-<script>
-function sendRequest() { 
-	$.ajax( 
-      { 
-        url: "http://localhost:3000/api", 
-        type: "GET" 
-      }); 
-}
-</script>
+<!DOCTYPE html>
+<html>
+<body>
+<form action="http://localhost:3000/test" method="POST">
+    First name: <input type="text" name="name"><br>
+    Last name: <input type="text" name="password"><br>
+    <button type="submit">Send To The Server</button>
+</form>
+</body>
+</html>
