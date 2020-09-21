@@ -9,7 +9,8 @@ const crownstonePassword     = "password";
 async function login() {
     await cloud.login(crownstoneEmailAddress, crownstonePassword)
 
-    let userReference = cloud.me();
+    let userReference = await cloud.me();
+    console.log(userReference);
 
     let userId       = await userReference.id();
     console.log(userId);
@@ -21,7 +22,7 @@ async function login() {
     console.log(userLocation[0]);
 
     //GET SPHERE ID OF THE CURRENT LOCATION OF THE USER
-    sphereId = userLocation[0]['inSpheres'][0]['sphereId'];
+    let sphereId = userLocation[0]['inSpheres'][0]['sphereId'];
     console.log(sphereId);
 
     let allCs = await cloud.sphere(sphereId).crownstones();
@@ -38,4 +39,4 @@ async function login() {
     // let location = await cloud.locations()
     // console.log(location);
 }
-login().catch((e) => { console.log("There was a problem running this example:", e); });
+login().catch((e) => { console.log("There was a problem running this code:", e); });
