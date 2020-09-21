@@ -1,0 +1,8 @@
+{
+  "name": "Testing code",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "crownstone-cloud": "^0.16.0"
+  }
+}

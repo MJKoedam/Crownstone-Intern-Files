@@ -15,7 +15,10 @@ function sleep(milliseconds) {
 
 //async method of getting data from cloud
 async function run() {
-    await cloud.login(crownstoneEmailAddress, crownstonePassword)
+    await cloud.login(crownstoneEmailAddress, crownstonePassword);
+
+    let myUserData = await cloud.me().currentLocation();
+    console.log(myUserData);
 
     //let allCsData = await cloud.crownstones();
 

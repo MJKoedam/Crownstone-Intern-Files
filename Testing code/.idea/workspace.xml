@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/get_crownstones_in_sphere_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend-Frontend testing code/express-backend/react-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend-Frontend testing code/express-backend/react-frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_set_and_get_data_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_set_and_get_data_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logintest.js" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/assert.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/assert.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/async_hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/buffer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/child_process.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/cluster.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/console.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/constants.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/crypto.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/dgram.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/dns.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/domain.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/fs/promises.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/globals.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/globals.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/http.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/http2.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/https.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/inspector.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/module.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/net.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/os.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/path.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/perf_hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/process.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/process.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/punycode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/querystring.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/readline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/repl.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/stream.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/string_decoder.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/timers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/tls.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/trace_events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/tty.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/url.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/v8.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/vm.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/worker_threads.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.1/zlib.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/fs.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/globals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/process.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.4/util.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.6/base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/ts3.6/base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.6/globals.global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/ts3.6/wasi.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-polyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-polyfill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-ponyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-ponyfill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/lib/index.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/lib/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/node_modules/node-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/crownstone.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/crownstoneRequests.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/hubRequests.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/CrownstoneCloud.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/CrownstoneCloud.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/dataContainers/crownstone.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/dataContainers/crownstone.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/crownstoneRequests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/crownstoneRequests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/hubRequests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/hubRequests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/dist/source/core/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/dist/source/core/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hagN92UbJ6NzeoIcHooXrc05W4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../homey-crownstone/drivers/crownstone/driver.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="" />
+      <created>1600254573545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600254573545</updated>
+      <workItem from="1600254574570" duration="5042000" />
+      <workItem from="1600334023521" duration="10868000" />
+      <workItem from="1600676920067" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600352035061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1600352035061" />
+  </component>
+</project>
