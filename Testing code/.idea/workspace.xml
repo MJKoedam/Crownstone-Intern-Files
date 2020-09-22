@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Backend-Frontend testing code/express-backend/react-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend-Frontend testing code/express-backend/react-frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest.js" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/CrownstoneCloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/dataContainers/hub.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/tools/requests/sphereRequests.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/util/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/util/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/util/request.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/dist/util/request.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/CrownstoneCloud.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/CrownstoneCloud.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/dataContainers/hub.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/dataContainers/hub.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/declarations/cloudTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/declarations/cloudTypes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/declarations/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/declarations/declarations.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/sphereRequests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/tools/requests/sphereRequests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/util/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-cloud/src/util/request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../homey-crownstone/app.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -87,6 +64,7 @@
       <workItem from="1600334023521" duration="10868000" />
       <workItem from="1600676920067" duration="3768000" />
       <workItem from="1600682572194" duration="14863000" />
+      <workItem from="1600759975166" duration="16000" />
     </task>
     <servers />
   </component>
@@ -106,10 +84,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600693191770">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600759989509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1600693191770" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600759989509" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600693468402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
