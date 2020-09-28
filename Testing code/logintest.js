@@ -2,8 +2,8 @@ let cloudLib = require("crownstone-cloud")
 let cloud = new cloudLib.CrownstoneCloud();
 
 //credentials:
-const crownstoneEmailAddress = "martjankoedam42@gmail.com";
-const crownstonePassword     = "CrownstoneIntern";
+const crownstoneEmailAddress = "username";
+const crownstonePassword     = "password";
 
 //function to login to the cloud and return the userdata
 async function login() {
@@ -30,6 +30,8 @@ async function login() {
     for (let i = 0; i < allCs.length; i++){
         console.log("This is Crownstone " + i + " with ID: " + allCs[i].id + " and name: " + allCs[i].name);
     }
+    console.log("Extra:");
+    console.log(allCs[0]);
 
     // let myUserData = await cloud.me().data()
     // console.log(myUserData);
