@@ -24,12 +24,12 @@ async function run() {
 
     //console.log(allCsData[1]);
     // select one crownstone by ID
-    let idFilter = '5f63769a9c3d57000471d8dd';
+    let idFilter = '5f4f69a6145e6e0004f60f0d';
     let dataFromId = await cloud.crownstone(idFilter).data();
 
     console.log(dataFromId);
 
-    let leds = cloud.crownstone('5f63769a9c3d57000471d8dd');
+    let leds = cloud.crownstone('5f4f69a6145e6e0004f60f0d');
     await leds.turnOn();
     sleep(5000);
     await leds.turnOff();
