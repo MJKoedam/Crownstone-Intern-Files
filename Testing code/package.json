@@ -2,7 +2,8 @@
   "name": "Testing code",
   "version": "1.0.0",
   "dependencies": {
-    "crownstone-cloud": "^0.17.11"
+    "crownstone-cloud": "^0.17.11",
+    "crownstone-sse": "^4.0.0"
   },
   "devDependencies": {}
 }
