@@ -1,8 +1,9 @@
 let cloudLib = require("crownstone-cloud")
 let cloud = new cloudLib.CrownstoneCloud();
+let credentials = require('../../credentials.json');
 
-const crownstoneEmailAddress = "username";
-const crownstonePassword     = "password";
+const crownstoneEmailAddress = credentials.email;
+const crownstonePassword     = credentials.password;
 
 async function run() {
     await cloud.login(crownstoneEmailAddress, crownstonePassword);

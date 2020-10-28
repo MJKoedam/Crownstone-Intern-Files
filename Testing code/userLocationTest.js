@@ -1,9 +1,9 @@
 let cloudLib = require("crownstone-cloud")
 let cloud = new cloudLib.CrownstoneCloud();
+let credentials = require('../../credentials.json');
 
-//credentials:
-const crownstoneEmailAddress = "martjankoedam42@gmail.com";
-const crownstonePassword     = "CrownstoneIntern";
+const crownstoneEmailAddress = credentials.email;
+const crownstonePassword     = credentials.password;
 
 let userReference;
 
