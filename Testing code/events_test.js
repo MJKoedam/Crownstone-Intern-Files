@@ -1,8 +1,8 @@
 const sseLib = require('crownstone-sse')
 let sse = new sseLib.CrownstoneSSE();
 
-const crownstoneEmailAddress = 'martjankoedam42@gmail.com';
-const crownstonePassword     = 'CrownstoneIntern';
+const crownstoneEmailAddress = 'username';
+const crownstonePassword     = 'password';
 
 let eventHandler = (data) => {
     if(data.type === 'presence' && data.subType === 'enterLocation'){
