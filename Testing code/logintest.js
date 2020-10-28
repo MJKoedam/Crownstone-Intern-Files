@@ -10,6 +10,7 @@ async function login() {
     await cloud.login(crownstoneEmailAddress, crownstonePassword)
 
     let userReference = await cloud.me();
+    console.log(userReference.length);
     console.log(userReference);
 
     let userId       = await userReference.id();
