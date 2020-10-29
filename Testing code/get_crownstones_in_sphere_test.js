@@ -6,26 +6,28 @@ const crownstoneEmailAddress = credentials.email;
 const crownstonePassword     = credentials.password;
 
 async function run() {
+    console.log('login');
     await cloud.login(crownstoneEmailAddress, crownstonePassword);
 
-    let allSpheres = await cloud.spheres();
-    for(let i = 0; i < allSpheres.length; i++){
-        let sphereId = allSpheres[i].id;
-        let allCs = await cloud.sphere(sphereId).crownstones();
-        for (let j = 0; j < allCs.length; j++){
-            console.log("This is Crownstone " + j + " in Sphere " + i + " with ID: " + allCs[j].id + " and name: " + allCs[j].name);
-            // turn specific light on:
-            // if(allCs[j].name == "CrownstoneLamp"){
-            //     await cloud.crownstone(allCs[j].id).turnOn();}
-        }
-    }
+    // let userReference = await cloud.me();
+    // console.log(userReference);
+    // let userLocation = await userReference.currentLocation();
+    // console.log(userLocation);
+    console.log('await 1');
+    let testing = await cloud.me();
+    console.log('await 2');
+    let testing2 = await testing.currentLocation();
+    console.log('currentLocation: ' + testing2.length);
+    let t1 = await testing2[0];
+    console.log(t1);
+    //let t2 = await t1['inSpheres'];
+    //console.log(t2);
+
+    // let devices = await cloud.sphere(sphereId).crownstones();
+    // console.log("DEVICE:" + devices);
+    //
+    // let spheres = await cloud.spheres();
+    // console.log('spheres: ' + spheres.length);
+
 }
 run().catch((e) => { console.log("There was a problem running the code:", e); });
-
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-        currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
-}
