@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="" />
+    <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/userLocationTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/userLocationTest.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +68,7 @@
       <workItem from="1600682572194" duration="14863000" />
       <workItem from="1600759975166" duration="16000" />
       <workItem from="1600851017119" duration="9000" />
+      <workItem from="1605035613189" duration="117000" />
     </task>
     <servers />
   </component>
@@ -85,10 +88,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600851025004">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605035731145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1600851025004" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1605035731145" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600759989509" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600693468402">
       <screen x="0" y="0" width="1920" height="1040" />

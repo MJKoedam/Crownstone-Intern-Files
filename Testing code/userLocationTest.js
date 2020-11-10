@@ -5,27 +5,30 @@ let credentials = require('../../credentials.json');
 const crownstoneEmailAddress = credentials.email;
 const crownstonePassword     = credentials.password;
 
-let userReference;
+let sphereId;
 
 async function login() {
     await cloud.login(crownstoneEmailAddress, crownstonePassword)
 
-    userReference = await cloud.me();
-    console.log(userReference);
+    let userReference = await cloud.me();
     let userLocation = await userReference.currentLocation();
-    console.log('userlocation: ' + userLocation.length);
-    console.log(userLocation);
-    console.log(userLocation[0]['inSpheres'][0]);
+    if (userLocation.length > 0) {
+        let spheres = await cloud.spheres();
+        if (spheres.length > 0) {
+
+            sphereId = await userLocation[0]['inSpheres'][0]['sphereId'];
+            let inLocation = await userLocation[0]['inSpheres'][0]['inLocation'];
+            console.log(inLocation);
+            console.log(inLocation.length);
+            let roomId = await inLocation['locationId'];
+            let roomName = await inLocation['locationName'];
+            console.log('roomId ' + roomId);
+            console.log('roomName ' + roomName);
+        } else {
+            console.log('Unable to find sphere');
+        }
+    } else {
+        console.log('Unable to locate user');
+    }
 }
 login().catch((e) => { console.log("There was a problem running this code:", e); });
-
-async function myLoop() {
-    setTimeout(async function() {
-        let userLocation = await userReference.currentLocation();
-        console.log('userlocation: ' + userLocation.length);
-        console.log(userLocation[0]['inSpheres'][0]);
-        myLoop().catch((e) => { console.log("Something went wrong with looping!", e); });
-    }, 3000)
-}
-
-//myLoop().catch((e) => { console.log("Something went wrong with looping!", e); });
