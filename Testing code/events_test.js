@@ -8,7 +8,9 @@ const crownstonePassword     = credentials.password;
 let eventHandler = (data) => {
     if(data.type === 'presence' && data.subType === 'enterLocation'){
         let location = data.location.name;
-        console.log('user entered location: ' + location)
+        let user = data.user.name;
+        console.log(user + ' entered location: ' + location);
+        console.log(data);
     }
 }
 
