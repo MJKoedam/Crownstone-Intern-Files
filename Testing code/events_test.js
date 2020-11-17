@@ -12,6 +12,12 @@ let eventHandler = (data) => {
         console.log(user + ' entered location: ' + location);
         console.log(data);
     }
+    if(data.type === 'presence' && data.subType === 'exitLocation'){
+        let location = data.location.name;
+        let user = data.user.name;
+        console.log(user + ' left location: ' + location);
+        console.log(data);
+    }
 }
 
 async function events() {
