@@ -23,8 +23,9 @@ async function run() {
     //let t2 = await t1['inSpheres'];
     //console.log(t2);
 
-    // let devices = await cloud.sphere(sphereId).crownstones();
-    // console.log("DEVICE:" + devices);
+    let devices = await cloud.sphere('5faaaef363c8620004b62f2a').crownstones();
+    console.log("DEVICE:");
+    console.log(devices);
     //
     // let spheres = await cloud.spheres();
     // console.log('spheres: ' + spheres.length);

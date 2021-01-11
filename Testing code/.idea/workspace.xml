@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/userLocationTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/userLocationTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/events_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_crownstones_in_sphere_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/get_crownstones_in_sphere_test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,6 +71,7 @@
       <workItem from="1600759975166" duration="16000" />
       <workItem from="1600851017119" duration="9000" />
       <workItem from="1605035613189" duration="117000" />
+      <workItem from="1610367560652" duration="5202000" />
     </task>
     <servers />
   </component>

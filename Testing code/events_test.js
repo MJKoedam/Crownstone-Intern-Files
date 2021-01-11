@@ -5,18 +5,26 @@ let credentials = require('../../credentials.json');
 const crownstoneEmailAddress = credentials.email;
 const crownstonePassword     = credentials.password;
 
+// let eventHandler = (data) => {
+//     if(data.type === 'presence' && data.subType === 'enterLocation'){
+//         let location = data.location.name;
+//         let user = data.user.name;
+//         console.log(user + ' entered location: ' + location);
+//         console.log(data);
+//     }
+//     if(data.type === 'presence' && data.subType === 'exitLocation'){
+//         let location = data.location.name;
+//         let user = data.user.name;
+//         console.log(user + ' left location: ' + location);
+//         console.log(data);
+//     }
+// }
+
 let eventHandler = (data) => {
-    if(data.type === 'presence' && data.subType === 'enterLocation'){
-        let location = data.location.name;
-        let user = data.user.name;
-        console.log(user + ' entered location: ' + location);
+    if(data.type === 'dataChange' && data.subType === 'stones' && data.operation === 'update') {
         console.log(data);
-    }
-    if(data.type === 'presence' && data.subType === 'exitLocation'){
-        let location = data.location.name;
-        let user = data.user.name;
-        console.log(user + ' left location: ' + location);
-        console.log(data);
+        //console.log(data.sphere.id);
+        console.log(data.changedItem.id);
     }
 }
 
