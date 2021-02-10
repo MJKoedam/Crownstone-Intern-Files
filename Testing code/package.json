@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "crownstone-cloud": "^0.18.0",
-    "crownstone-sse": "^4.0.0"
+    "crownstone-sse": "^4.2.0"
   },
   "devDependencies": {}
 }

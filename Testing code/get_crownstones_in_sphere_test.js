@@ -25,7 +25,12 @@ async function run() {
 
     let devices = await cloud.sphere('5faaaef363c8620004b62f2a').crownstones();
     console.log("DEVICE:");
-    console.log(devices);
+
+    for (let i = 0; i < devices.length; i++) {
+        console.log(devices[i].name);
+        console.log(devices[i].abilities[0].enabled);
+    }
+
     //
     // let spheres = await cloud.spheres();
     // console.log('spheres: ' + spheres.length);
