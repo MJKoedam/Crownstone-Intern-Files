@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="716aa67f-f228-46f3-bd88-dc03d15a2adf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Planning/Planning Mart-Jan.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Planning/Planning Mart-Jan.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_set_and_get_data_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_set_and_get_data_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/events_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_crownstones_in_sphere_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/get_crownstones_in_sphere_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/dist/CrownstoneSSE.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/dist/CrownstoneSSE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/dist/CrownstoneSSE.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/dist/CrownstoneSSE.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/src/CrownstoneSSE.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/src/CrownstoneSSE.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/crownstone-sse/src/declarations/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crownstone-sse/src/declarations/declarations.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +53,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +80,8 @@
       <workItem from="1612881140102" duration="1651000" />
       <workItem from="1612896874254" duration="9000" />
       <workItem from="1612965812761" duration="3763000" />
+      <workItem from="1613389136493" duration="635000" />
+      <workItem from="1613470805498" duration="2350000" />
     </task>
     <servers />
   </component>
