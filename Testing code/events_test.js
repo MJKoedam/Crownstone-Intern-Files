@@ -5,6 +5,14 @@ let credentials = require('../../credentials.json');
 const crownstoneEmailAddress = credentials.email;
 const crownstonePassword     = credentials.password;
 
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+        currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+}
+
 let eventHandler = (data) => {
     if(data.type === 'presence' && data.subType === 'enterLocation'){
         let location = data.location.name;
@@ -29,9 +37,25 @@ let eventHandler = (data) => {
 }
 
 async function events() {
-        console.log('Logging in...')
-        await sse.login( crownstoneEmailAddress , crownstonePassword )
-        console.log('Connecting to event server...')
-        await sse.start(eventHandler);
+
+    console.log('Logging in...')
+    await sse.login(crownstoneEmailAddress, crownstonePassword);
+    console.log('Connecting to event server...')
+    await sse.start(eventHandler);
+
+    sleep(1000);
+
+    console.log('Stopping..');
+    await sse.stop;
+
+    sleep(1000);
+
+    console.log('Logging in..');
+    await sse.login(crownstoneEmailAddress, crownstonePassword);
+
+    sleep(1000);
+
+    console.log('Starting..')
+    await sse.start(eventHandler);
 }
 events().catch((e) => { console.log('There was a problem running this code:', e); });
