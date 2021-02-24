@@ -14,26 +14,31 @@ function sleep(milliseconds) {
 }
 
 let eventHandler = (data) => {
-    if(data.type === 'presence' && data.subType === 'enterLocation'){
+    if (data.type === 'presence' && data.subType === 'enterLocation') {
         let location = data.location.name;
         let user = data.user.name;
         console.log(user + ' entered location: ' + location);
         console.log(data);
     }
-    if(data.type === 'presence' && data.subType === 'exitLocation'){
+    if (data.type === 'presence' && data.subType === 'exitLocation') {
         let location = data.location.name;
         let user = data.user.name;
         console.log(user + ' left location: ' + location);
         console.log(data);
     }
-    if(data.type === 'dataChange' && data.subType === 'stones' && data.operation === 'update') {
+    if (data.type === 'dataChange' && data.subType === 'stones' && data.operation === 'update') {
         console.log(data);
         console.log(data.changedItem.id);
     }
-    if(data.type === 'abilityChange' && data.subType === 'dimming') {
+    if (data.type === 'dataChange' && data.subType === 'stones' && data.operation === 'delete') {
+        console.log(data);
+        console.log(data.changedItem.id);
+    }
+    if (data.type === 'abilityChange' && data.subType === 'dimming') {
         console.log(data.stone.id);
         console.log(data.ability.enabled);
     }
+    //console.log(data);
 }
 
 async function events() {
